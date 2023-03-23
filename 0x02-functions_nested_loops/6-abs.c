@@ -4,6 +4,7 @@
  * _abs - prints the absolute value of a value
  * @c: the integer to return its absolute
  *
+ * Return: The positive value of the int
  */
 int _abs(int c)
 {
@@ -11,5 +12,5 @@ int _abs(int c)
 	{
 		return (c * (-1));
 	}
-	return c;
+	return (c);
 }
