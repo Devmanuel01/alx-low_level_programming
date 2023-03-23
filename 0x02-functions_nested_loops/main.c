@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	_islower (20);
+	add (20,10);
 	return (0);
 }

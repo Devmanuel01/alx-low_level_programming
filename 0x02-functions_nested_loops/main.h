@@ -9,5 +9,6 @@ int _abs(int);
 int print_last_digit(int);
 int _islower(int c);
 int _isalpha(int c);
+int add(int, int);
 
 #endif
