@@ -10,7 +10,7 @@ int main(void)
 {
 	char *str;
 
-	str = "0123456789";
+	str = "0123456789Fsgdfhghkj;lk'lj;khjgkhfjgdfzvgsftsfgjhdfgsSADFGHJHGDFSGDFGKJGHFDfsdgjbndcdhjgjlkjgnfjhsartfgjtukjxdsjkhgghkgjljgl;gkh;jl'h;hgd\0dffghjg";
 	puts2(str);
 	return (0);
 }
