@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -15,7 +14,6 @@ void puts_half(char *str)
 	while (str[c] != '\0')
 		c++;
 	i = c / 2;
-	printf("%d\n", i);
 
 	while (str[i] != '\0')
 	{
