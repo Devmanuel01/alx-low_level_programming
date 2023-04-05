@@ -6,7 +6,7 @@
  * where the string of char are copied to.
  * @src: This argument is a pointer to the address,
  * of the source of the string char to be copied from.
- * n: This argument is the number of bytes of memory being,
+ * @n: This argument is the number of bytes of memory being,
  * copied from the source address in memory.
  *
  * Return: A pointer to the address where the newly,
@@ -14,7 +14,7 @@
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int i;
+	unsigned int i;
 
 	i = 0;
 
