@@ -8,9 +8,9 @@
  */
 int main(void)
 {
-	int n;
-
-	n = _strlen_recursion("Corbin Coleman");
-	printf("%d\n", n);
+	printf("%d\n", factorial(1));
+	printf("%d\n", factorial(5));
+	printf("%d\n", factorial(10));
+	printf("%d\n", factorial(-1024));
 	return (0);
 }
