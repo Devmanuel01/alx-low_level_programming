@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 {
 	if (argc == 3)
 	{
-		printf("%d\n", _strtoint(argv[1]) * _strtoint(argv[2] ));
+		printf("%d\n", _strtoint(argv[1]) * _strtoint(argv[2]));
 		return (0);
 	}
 	printf("Error\n");
@@ -51,5 +51,5 @@ int _strtoint(char *s)
 			i++;
 		}
 	}
-	return num;
+	return (num);
 }
