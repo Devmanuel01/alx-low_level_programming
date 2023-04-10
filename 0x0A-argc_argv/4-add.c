@@ -1,4 +1,5 @@
 #include <stdio.h>
+int _strtoint(char *);
 
 /**
  * main - Program entry point and the function also,
