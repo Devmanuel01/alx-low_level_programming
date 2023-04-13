@@ -37,17 +37,17 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		{
 			if (s1[i] != '\0')
 			{
-				*(p + m) = s1[i];
+				p[m] = s1[i];
 				i++;
 			}
 			else if (s2[j] != '\0')
 			{
-				*(p + m) = s2[j];
+				p[m] = s2[j];
 				j++;
 			}
 			m++;
 		}
-		*(p + m) = '\0';
+		p[m] = '\0';
 	}
 	return (p);
 }
