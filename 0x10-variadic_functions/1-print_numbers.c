@@ -5,7 +5,7 @@
 /**
  * print_numbers - This function prints numbers, followed
  * by a new line.
- * @seperator: This holds the char used to seperate the,
+ * @separator: This holds the char used to seperate the,
  * numbers.
  * @n: This holds the total number of variable args.
  * @...: This signifies variable args.
@@ -16,7 +16,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list arg_ptr;
 	unsigned int args = 0;
-	
+
 	if (n > 0)
 	{
 		va_start(arg_ptr, n);
