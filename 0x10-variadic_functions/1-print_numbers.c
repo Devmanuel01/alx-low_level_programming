@@ -12,25 +12,22 @@
  *
  * Return: void
  */
-void print_numbers(const char *seperator, const unsigned int n, ...)
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list arg_ptr;
 	unsigned int args = 0;
-
-	if (seperator != NULL)
+	
+	if (n > 0)
 	{
-		if (n > 0)
+		va_start(arg_ptr, n);
+		while (args < n)
 		{
-			va_start(arg_ptr, n);
-			while (args < n)
-			{
-				if (args != (n - 1))
-					printf("%d%c ", va_arg(arg_ptr, int), *seperator);
-				else
-					printf("%d", va_arg(arg_ptr, int));
-				args++;
-			}
-			putchar('\n');
+			printf("%d", va_arg(arg_ptr, int));
+			if (separator && (args != (n - 1)))
+				printf("%s", separator);
+			args++;
 		}
+		va_end(arg_ptr);
+		putchar('\n');
 	}
 }
