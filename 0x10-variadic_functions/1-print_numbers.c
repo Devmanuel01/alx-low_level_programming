@@ -30,7 +30,6 @@ void print_numbers(const char *seperator, const unsigned int n, ...)
 					printf("%d", va_arg(arg_ptr, int));
 				args++;
 			}
-			va_end(arg_ptr);
 			putchar('\n');
 		}
 	}
