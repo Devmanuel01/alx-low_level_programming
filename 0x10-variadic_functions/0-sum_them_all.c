@@ -11,7 +11,7 @@
  * Return: It returns the sum of the args. it returns,
  * 0 if n == 0.
  */
- int sum_them_all(const unsigned int n, ...)
+int sum_them_all(const unsigned int n, ...)
 {
 	va_list arg_ptr;
 	unsigned int args = 0;
